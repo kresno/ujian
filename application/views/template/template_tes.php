@@ -149,7 +149,6 @@
           <?php if(!empty($nama)){ echo $nama; } ?> | <strong> <a href="<?php echo site_url(); ?>/welcome/logout" >Log out</a></strong>
         </div>
         <div class="container">
-          <strong>&copy; 2019 achmadlutfi.wordpress.com</strong>
         </div><!-- /.container -->
       </footer>
     </div><!-- ./wrapper -->
