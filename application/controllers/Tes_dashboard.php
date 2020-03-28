@@ -420,7 +420,7 @@ class Tes_dashboard extends Tes_Controller {
 	}
 
 	/**
-	* funsi tambahan 
+	* Mendapatkan Materi 
 	* 
 	* 
 */

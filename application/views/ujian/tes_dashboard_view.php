@@ -3,7 +3,7 @@
     <section class="content-header">
     	<h1>
     		SELAMAT DATANG <?php if(!empty($nama)){ echo $nama; } ?>
-            <small>di Ujian Online Berbasis Komputer</small>
+            <small>di elearning </small>
         </h1>
         <ol class="breadcrumb">
         	<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -15,8 +15,37 @@
     <section class="content">
         <div class="callout callout-info">
             <h4>Informasi</h4>
-            <p>Silahkan pilih Tes yang diikuti dari daftar tes yang tersedia dibawah ini. Apabila tes tidak muncul, silahkan menghubungi Operator yang bertugas.</p>
+            <p>Silahkan pilih Materi dan Test berdasarkan topik yang telah disediakan.</p>
         </div>
+        <div class="box box-primary box-solid">
+            <div class="box-header with-border">
+                <h3 class="box-title">Daftar Materi</h3>
+            </div><!-- /.box-header -->
+            <div class="box-body">
+                <table id="table-materi" class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th class="all">Topik</th>
+                            <th>Materi</th>
+                            <th>Dowload File</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                            <td> </td>
+                        </tr>
+                    </tbody>
+                </table>   
+            </div><!-- /.box-body -->
+        </div><!-- /.box -->
+    </section><!-- /.content -->
+
+	<!-- Main content -->
+    <section class="content">
         <div class="box box-success box-solid">
             <div class="box-header with-border">
                 <h3 class="box-title">Daftar Tes</h3>
